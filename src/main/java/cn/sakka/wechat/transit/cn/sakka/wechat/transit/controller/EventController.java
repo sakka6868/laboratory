@@ -33,6 +33,11 @@ public class EventController {
 
     protected static final Logger LOGGER = LoggerFactory.getLogger(EventController.class);
 
+    @GetMapping(value = "/hello")
+    public String hello(String signature, String timestamp, String nonce, String echostr) {
+        return "hello";
+    }
+
 
     @GetMapping(value = "/wechat/wxgzh")
     public String checkSignature(String signature, String timestamp, String nonce, String echostr) {
