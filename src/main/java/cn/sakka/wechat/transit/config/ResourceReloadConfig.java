@@ -1,4 +1,4 @@
-package cn.sakka.wechat.transit.cn.sakka.wechat.transit.config;
+package cn.sakka.wechat.transit.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
